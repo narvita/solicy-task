@@ -1,0 +1,13 @@
+.ins {
+  width: 100%;
+  border-left: 1px solid black;
+  min-height: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  .text {
+    margin: 5px;
+  }
+}

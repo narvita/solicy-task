@@ -1,0 +1,19 @@
+.card {
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  height: 100%;
+  border: 1px solid black;
+  font-size: 40px;
+  text-align: center;
+
+  .del-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    text-align: end;
+    font-size: 20px;
+    cursor: pointer;
+  }
+}
